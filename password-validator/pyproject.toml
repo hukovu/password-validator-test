@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "password-validator-py"
+version = "0.1.0"
+description = "Validador de senhas com suíte de testes pytest e cobertura"
+authors = ["Seu Nome <seu@email>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pytest-cov = "^4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
